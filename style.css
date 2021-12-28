@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap");
+
+body {
+  font-family: "Noto Serif Display", serif;
+  background: url(https://i.pinimg.com/originals/58/08/c4/5808c42753b8f28c26fd0cd75e98c542.jpg);
+}
+
+.container {
+  width: 800px;
+  min-height: 450px;
+  border: 15px solid rgb(109, 180, 91);
+  margin: 0 auto; /*centralizing*/
+}
+.header {
+  display: flex;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  height: 150px;
+  border: 2px;
+}
+
+.header-fourth {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  font-size: 15px;
+}
+
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: top; /*text centralizing*/
+  width: 80%;
+  height: 260%;
+  font-size: 20px;
+  padding-top: 8%;
+  color: wheat;
+  background: url(https://cdn.hipwallpaper.com/i/5/55/wPup4m.jpg) no-repeat
+    center center;
+}
+.userpic {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  border: 1px solid blue;
+}
+.nav ul {
+  display: flex;
+}
+
+a:hover {
+  background-color: rgb(109, 180, 91);
+}
